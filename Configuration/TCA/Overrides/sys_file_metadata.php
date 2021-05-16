@@ -201,7 +201,7 @@ $tca = [
         'config' => [
             'type' => 'text',
             'cols' => 30,
-            'rows' => 10,
+            'rows' => 5,
             'eval' => 'trim',
             'default' => '',
         ],
