@@ -320,3 +320,8 @@ foreach ($tca as $field => $configuration) {
     $field
 );
 }
+
+\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addLLrefForTCAdescr(
+    'sys_file_metadata',
+    'EXT:xmp/Resources/Private/Language/locallang_csh_sys_file_metadata.xlf'
+);

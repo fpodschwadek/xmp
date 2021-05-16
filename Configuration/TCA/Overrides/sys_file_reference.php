@@ -7,7 +7,7 @@ $tca = [
     'dc_title' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:dc_title',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.dc_title',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -20,7 +20,7 @@ $tca = [
     'dc_description' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:dc_description',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.dc_description',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -33,7 +33,7 @@ $tca = [
     'cc_license' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:cc_license',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.cc_license',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -46,7 +46,7 @@ $tca = [
     'cc_attribution_url' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:cc_attribution_url',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.cc_attribution_url',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -59,7 +59,7 @@ $tca = [
     'cc_attribution_name' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:cc_attribution_name',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.cc_attribution_name',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -72,7 +72,7 @@ $tca = [
     'xmprights_usage_terms' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:xmprights_usage_terms',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.xmprights_usage_terms',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -85,7 +85,7 @@ $tca = [
     'xmprights_web_statement' => [
         'l10n_mode' => 'prefixLangTitle',
         'exclude' => true,
-        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:xmprights_web_statement',
+        'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.xmprights_web_statement',
         'config' => [
             'type' => 'input',
             'size' => 20,
@@ -101,7 +101,7 @@ $tca = [
 \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::addFieldsToPalette(
     'sys_file_reference',
     'xmpPalette',
-    'title,alternative,--linebreak--,link,description,--linebreak--,dc_title,dc_description,cc_license,cc_attribution_url,cc_attribution_name,xmprights_usage_terms,xmprights_web_statement,--linebreak--,crop'
+    'dc_title,dc_description,--linebreak--,cc_license,cc_attribution_url,cc_attribution_name,--linebreak--,xmprights_usage_terms,xmprights_web_statement'
 );
 
 $GLOBALS['TCA']['sys_file_reference']['palettes']['xmpPalette']['label'] = 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_reference.xmpPalette';

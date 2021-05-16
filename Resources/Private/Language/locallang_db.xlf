@@ -10,122 +10,122 @@
 
 			<!-- DC -->
 			<trans-unit id="sys_file_metadata.dc_creator">
-				<source>dc:creator</source>
+				<source>Creator</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_description">
-				<source>dc:description</source>
+				<source>Description</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_identifier">
-				<source>dc:identifier</source>
+				<source>Identifier</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_publisher">
-				<source>dc:publisher</source>
+				<source>Publisher</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_relation">
-				<source>dc:relation</source>
+				<source>Relation</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_title">
-				<source>dc:title</source>
+				<source>Title</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_type">
-				<source>dc:type</source>
+				<source>Type</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.dc_subject">
-				<source>dc:subject</source>
+				<source>Subject</source>
 			</trans-unit>
 
 			<!-- IPTC4XMPCORE -->
 			<trans-unit id="sys_file_metadata.iptc4xmpcore_country_code">
-				<source>Iptc4xmpCore:CountryCode</source>
+				<source>Country Code</source>
 			</trans-unit>
 
 			<!-- IPTC4XMPEXT -->
 			<trans-unit id="sys_file_metadata.iptc4xmpext_location_created_world_region">
-				<source>Iptc4xmpExt:LocationCreatedWorldRegion</source>
+				<source>World Region</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.iptc4xmpext_country_name">
-				<source>Iptc4xmpExt:LocationCreatedCountryName</source>
+				<source>Country Name</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.iptc4xmpext_province_state">
-				<source>Iptc4xmpExt:LocationCreatedProvinceState</source>
+				<source>Province/State</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.iptc4xmpext_city">
-				<source>Iptc4xmpExt:LocationCreatedCity</source>
+				<source>City</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.iptc4xmpext_sublocation">
-				<source>Iptc4xmpExt:LocationCreatedSublocation</source>
+				<source>Sublocation</source>
 			</trans-unit>
 
 			<!-- PHOTOSHOP -->
 			<trans-unit id="sys_file_metadata.photoshop_caption_writer">
-				<source>photoshop:CaptionWriter</source>
+				<source>Caption Writer</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.photoshop_instructions">
-				<source>photoshop:Instructions</source>
+				<source>Instructions</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.photoshop_source">
-				<source>photoshop:Source</source>
+				<source>Source</source>
 			</trans-unit>
 
 			<!-- XMP -->
 			<trans-unit id="sys_file_metadata.xmp_create_date">
-				<source>xmp:CreateDate</source>
+				<source>Creation Date</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmp_label">
-				<source>xmp:Label</source>
+				<source>Label</source>
 			</trans-unit>
 
 			<!-- XMPRIGHTS -->
 			<trans-unit id="sys_file_metadata.xmprights_marked">
-				<source>xmprights:Marked</source>
+				<source>Rights Marked</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmprights_owner">
-				<source>xmprights:Owner</source>
+				<source>Owner</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmprights_usage_terms">
-				<source>xmprights:UsageTerms</source>
+				<source>Usage Terms</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmprights_web_statement">
-				<source>xmprights:WebStatement</source>
+				<source>Web Statement</source>
 			</trans-unit>
 
 			<!-- CREATIVE COMMONS -->
 			<trans-unit id="sys_file_metadata.cc_license">
-				<source>cc:License</source>
+				<source>CC License</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.cc_more_permissions">
-				<source>cc:MorePermissions</source>
+				<source>CC More Permissions</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.cc_attribution_url">
-				<source>cc:AttributionUrl</source>
+				<source>CC Attribution Url</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.cc_attribution_name">
-				<source>cc:AttributionName</source>
+				<source>CC Attribution Name</source>
 			</trans-unit>
 
 			<!-- XMPMM -->
 			<trans-unit id="sys_file_metadata.xmpmm_derived_from">
-				<source>xmpmm:DerivedFrom</source>
+				<source>Derived From</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmpmm_document_id">
-				<source>xmpmm:DocumentId</source>
+				<source>Document ID</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmpmm_instance_id">
-				<source>xmpmm:InstanceId</source>
+				<source>Instance ID</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmpmm_original_document_id">
-				<source>xmpmm:OriginalDocumentId</source>
+				<source>Original Document ID</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmpmm_rendition_class">
-				<source>xmpmm:RenditionClass</source>
+				<source>Rendition Class</source>
 			</trans-unit>
 			<trans-unit id="sys_file_metadata.xmpmm_rendition_params">
-				<source>xmpmm:RenditionParams</source>
+				<source>Rendition Params</source>
 			</trans-unit>
 
 			<!-- XMP IDG -->
 			<trans-unit id="sys_file_metadata.xmpidq_scheme">
-				<source>xmpidg:Scheme</source>
+				<source>IDG Scheme</source>
 			</trans-unit>
 
 		</body>

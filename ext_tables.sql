@@ -57,3 +57,18 @@ CREATE TABLE sys_file_metadata (
 	xmpidq_scheme varchar(255) DEFAULT '' NOT NULL,
 
 ) ENGINE=InnoDB;
+
+CREATE TABLE sys_file_reference (
+
+	dc_description text,
+	dc_title varchar(255),
+
+	xmprights_usage_terms varchar(255),
+	xmprights_web_statement varchar(255),
+
+	cc_license varchar(255),
+	cc_more_permissions varchar(255),
+	cc_attribution_url varchar(255),
+	cc_attribution_name varchar(255),
+
+) ENGINE=InnoDB;

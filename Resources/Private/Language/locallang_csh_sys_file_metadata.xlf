@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2015-10-20T09:04:39Z" product-name="cvma">
+		<header/>
+		<body>
+
+			<!-- DC -->
+			<trans-unit id="dc_creator.description">
+				<source>dc:creator</source>
+			</trans-unit>
+			<trans-unit id="dc_description.description">
+				<source>dc:description</source>
+			</trans-unit>
+			<trans-unit id="dc_identifier.description">
+				<source>dc:identifier</source>
+			</trans-unit>
+			<trans-unit id="dc_publisher.description">
+				<source>dc:publisher</source>
+			</trans-unit>
+			<trans-unit id="dc_relation.description">
+				<source>dc:relation</source>
+			</trans-unit>
+			<trans-unit id="dc_title.description">
+				<source>dc:title</source>
+			</trans-unit>
+			<trans-unit id="dc_type.description">
+				<source>dc:type</source>
+			</trans-unit>
+			<trans-unit id="dc_subject.description">
+				<source>dc:subject</source>
+			</trans-unit>
+
+			<!-- IPTC4XMPCORE -->
+			<trans-unit id="iptc4xmpcore_country_code.description">
+				<source>Iptc4xmpCore:CountryCode</source>
+			</trans-unit>
+
+			<!-- IPTC4XMPEXT -->
+			<trans-unit id="iptc4xmpext_location_created_world_region.description">
+				<source>Iptc4xmpExt:LocationCreatedWorldRegion</source>
+			</trans-unit>
+			<trans-unit id="iptc4xmpext_country_name.description">
+				<source>Iptc4xmpExt:LocationCreatedCountryName</source>
+			</trans-unit>
+			<trans-unit id="iptc4xmpext_province_state.description">
+				<source>Iptc4xmpExt:LocationCreatedProvinceState</source>
+			</trans-unit>
+			<trans-unit id="iptc4xmpext_city.description">
+				<source>Iptc4xmpExt:LocationCreatedCity</source>
+			</trans-unit>
+			<trans-unit id="iptc4xmpext_sublocation.description">
+				<source>Iptc4xmpExt:LocationCreatedSublocation</source>
+			</trans-unit>
+
+			<!-- PHOTOSHOP -->
+			<trans-unit id="photoshop_caption_writer.description">
+				<source>photoshop:CaptionWriter</source>
+			</trans-unit>
+			<trans-unit id="photoshop_instructions.description">
+				<source>photoshop:Instructions</source>
+			</trans-unit>
+			<trans-unit id="photoshop_source.description">
+				<source>photoshop:Source</source>
+			</trans-unit>
+
+			<!-- XMP -->
+			<trans-unit id="xmp_create_date.description">
+				<source>xmp:CreateDate</source>
+			</trans-unit>
+			<trans-unit id="xmp_label.description">
+				<source>xmp:Label</source>
+			</trans-unit>
+
+			<!-- XMPRIGHTS -->
+			<trans-unit id="xmprights_marked.description">
+				<source>xmprights:Marked</source>
+			</trans-unit>
+			<trans-unit id="xmprights_owner.description">
+				<source>xmprights:Owner</source>
+			</trans-unit>
+			<trans-unit id="xmprights_usage_terms.description">
+				<source>xmprights:UsageTerms</source>
+			</trans-unit>
+			<trans-unit id="xmprights_web_statement.description">
+				<source>xmprights:WebStatement</source>
+			</trans-unit>
+
+			<!-- CREATIVE COMMONS -->
+			<trans-unit id="cc_license.description">
+				<source>cc:License</source>
+			</trans-unit>
+			<trans-unit id="cc_more_permissions.description">
+				<source>cc:MorePermissions</source>
+			</trans-unit>
+			<trans-unit id="cc_attribution_url.description">
+				<source>cc:AttributionUrl</source>
+			</trans-unit>
+			<trans-unit id="cc_attribution_name.description">
+				<source>cc:AttributionName</source>
+			</trans-unit>
+
+			<!-- XMPMM -->
+			<trans-unit id="xmpmm_derived_from.description">
+				<source>xmpmm:DerivedFrom</source>
+			</trans-unit>
+			<trans-unit id="xmpmm_document_id.description">
+				<source>xmpmm:DocumentId</source>
+			</trans-unit>
+			<trans-unit id="xmpmm_instance_id.description">
+				<source>xmpmm:InstanceId</source>
+			</trans-unit>
+			<trans-unit id="xmpmm_original_document_id.description">
+				<source>xmpmm:OriginalDocumentId</source>
+			</trans-unit>
+			<trans-unit id="xmpmm_rendition_class.description">
+				<source>xmpmm:RenditionClass</source>
+			</trans-unit>
+			<trans-unit id="xmpmm_rendition_params.description">
+				<source>xmpmm:RenditionParams</source>
+			</trans-unit>
+
+			<!-- XMP IDG -->
+			<trans-unit id="xmpidq_scheme.description">
+				<source>xmpidg:Scheme</source>
+			</trans-unit>
+
+		</body>
+	</file>
+</xliff>
