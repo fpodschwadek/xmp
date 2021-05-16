@@ -39,7 +39,7 @@ CREATE TABLE sys_file_metadata (
 	xmprights_certificate varchar(255) DEFAULT '' NOT NULL,
 	xmprights_marked tinyint(1) unsigned DEFAULT '0' NOT NULL,
 	xmprights_owner varchar(255) DEFAULT '' NOT NULL,
-	xmprights_usage_terms varchar(255) DEFAULT '' NOT NULL,
+	xmprights_usage_terms text NOT NULL,
 	xmprights_web_statement varchar(255) DEFAULT '' NOT NULL,
 
 	cc_license varchar(255) DEFAULT '' NOT NULL,

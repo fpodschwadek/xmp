@@ -19,7 +19,7 @@ $tca = [
         'config' => [
             'type' => 'text',
             'cols' => 40,
-            'rows' => 15,
+            'rows' => 5,
             'eval' => 'trim',
             'default' => '',
         ],
@@ -146,7 +146,7 @@ $tca = [
         'config' => [
             'type' => 'text',
             'cols' => 40,
-            'rows' => 15,
+            'rows' => 10,
             'eval' => 'trim',
             'default' => '',
         ],
@@ -165,8 +165,9 @@ $tca = [
         'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.xmp_create_date',
         'config' => [
             'type' => 'input',
-            'size' => 15,
-            'eval' => 'trim',
+            'renderType' => 'inputDateTime',
+            'eval' => 'date,int',
+            'default' => time()
         ],
     ],
     'xmp_label' => [
