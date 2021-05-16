@@ -1,0 +1,24 @@
+{
+  "name": "digicademy/xmp",
+  "type": "typo3-cms-extension",
+  "description": "XMP for FAL",
+  "homepage": "https://nfdi4culture.de/",
+  "authors": [
+    {
+      "name": "Torsten Schrade",
+      "email": "Torsten.Schrade@adwmainz.de",
+      "role": "Developer",
+      "homepage": "https://www.adwmainz.de"
+    }
+  ],
+  "license": ["GPL-2.0+"],
+  "version": "0.1.0",
+  "require": {
+    "typo3/cms-core": ">=9.5.0 || <=10.4.99"
+  },
+  "autoload": {
+    "psr-4": {
+      "Digicademy\\Xmp\\": "Classes/"
+    }
+  }
+}

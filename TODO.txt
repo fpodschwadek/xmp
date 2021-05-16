@@ -1,0 +1,2 @@
+https://exiftool.org/TagNames/XMP.html#cc
+https://wiki.creativecommons.org/images/f/ff/Creativecommons-embedded-metadata-with-xmp_eng.pdf
