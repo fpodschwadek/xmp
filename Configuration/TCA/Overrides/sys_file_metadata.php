@@ -199,9 +199,11 @@ $tca = [
         'exclude' => 1,
         'label' => 'LLL:EXT:xmp/Resources/Private/Language/locallang_db.xlf:sys_file_metadata.xmprights_usage_terms',
         'config' => [
-            'type' => 'input',
-            'size' => 30,
+            'type' => 'text',
+            'cols' => 30,
+            'rows' => 10,
             'eval' => 'trim',
+            'default' => '',
         ],
     ],
     'xmprights_web_statement' => [
